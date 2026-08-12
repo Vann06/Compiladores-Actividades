@@ -1,0 +1,20 @@
+# Entornos virtuales y caché de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Archivos generados al ejecutar el ejercicio 9
+Monte_Carlo/reporte_ejercicio_9.md
+Monte_Carlo/reporte_*.md
+
+# Artefactos locales de compilación o distribución
+.dist/
+build/
+dist/
+
+# Configuración de editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

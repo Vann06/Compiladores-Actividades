@@ -1,0 +1,13 @@
+# Ejercicio 9: integral de f(x,y) sobre 0 <= y <= x y 0 <= x < infinito.
+# Escriba Python matemático: exp, sin, cos, sqrt, log, abs, pi y e están disponibles.
+# Cambie estos valores para plantear otra integral de la misma región.
+
+funcion = exp(-(x + y))
+muestras = 100000
+semilla = 20260811
+
+# Parámetro lambda de X ~ Exponencial(lambda). Debe ser positivo.
+tasa_exponencial = 1.0
+
+# Opcional: déjelo vacío o elimínelo si no se conoce el resultado analítico.
+valor_exacto = 0.5
